@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.0 / 2021-11-24
+
+- Support validating `facetime:`/`facetime-audio:`, `mailto:`, `sms:`, and `tel:` links.
+
 ## v0.1.0 / 2021-11-24
 
 - Print the error next to failed links.
