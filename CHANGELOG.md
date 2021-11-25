@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1.0 / 2021-11-23
+## v0.1.0 / 2021-11-24
 
 - Print the error next to failed links.
 - Use https://postman-echo.com instead of https://urlecho.appspot.com for tests.
