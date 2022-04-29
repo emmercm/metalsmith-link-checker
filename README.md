@@ -97,7 +97,7 @@ The user agent to use when making network requests.
 
 ### `parallelism` (optional)
 
-Type: `number` Default: `20`
+Type: `number` Default: `100`
 
 The maximum number of async operations at a time.
 
