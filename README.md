@@ -43,7 +43,7 @@ Metalsmith(__dirname)
 
 Type: `string` Default: `**/*.html`
 
-A [minimatch](https://www.npmjs.com/package/minimatch) glob pattern to find HTML files.
+A [micromatch](https://www.npmjs.com/package/micromatch) glob pattern to find HTML files.
 
 ### `html.tags` (optional)
 
@@ -72,6 +72,12 @@ Type: `number` Default: `15000`
 
 The network timeout when checking external links, in milliseconds.
 
+### `attempts` (optional)
+
+Type: `number` Default: `3`
+
+The number of times to attempt checking external links.
+
 ### `userAgent` (optional)
 
 Type: `string` Default: the top result from [top-user-agents](https://www.npmjs.com/package/top-user-agents)
@@ -80,7 +86,7 @@ The user agent to use when making network requests.
 
 ### `parallelism` (optional)
 
-Type: `number` Default: the number of logical CPU cores available x4
+Type: `number` Default: `20`
 
 The maximum number of async operations at a time.
 
