@@ -12,6 +12,17 @@
 
 A Metalsmith plugin to check for broken links.
 
+This plugin checks a number of different link types and protocols:
+
+- `http:` and `https:` remote links (with backoff and retry)
+- Local links (both relative and absolute)
+- `facetime:` and `facetime-audio:` phone numbers and email addresses
+- `mailto:` email links
+- `sms:` phone numbers
+- `tel:` phone numbers
+
+If there are any broken or invalid links found, all of them will be printed to console and the Metalsmith build will stop.
+
 ## Installation
 
 ```bash
